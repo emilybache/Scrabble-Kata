@@ -37,7 +37,7 @@ namespace Scrabble
         };
 
 
-        public static List<List<string>> board = new List<List<string>>
+        public static List<List<string>> Board = new List<List<string>>
         {
             new List<string>{"3xWS", "    ", "    ", "2xLS", "    ", "    ", "    ", "3xWS", "    ", "    ", "    ", "2xLS", "    ", "    ", "3xWS"},
             new List<string>{"    ", "2xWS", "    ", "    ", "    ", "3xLS", "    ", "    ", "    ", "3xLS", "    ", "    ", "    ", "2xWS", "    "},
