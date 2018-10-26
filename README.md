@@ -3,14 +3,14 @@ Scrabble
 
 In the game of scrabble you create words from letter tiles. Common letters have a lower value than rarer letters. The value is shown on each letter tile is as follows:
 
-Letter                           Value
-A, E, I, O, U, L, N, R, S, T       1
-D, G                               2
-B, C, M, P                         3
-F, H, V, W, Y                      4
-K                                  5
-J, X                               8
-Q, Z                               10
+  Letter                           Value
+  A, E, I, O, U, L, N, R, S, T       1
+  D, G                               2
+  B, C, M, P                         3
+  F, H, V, W, Y                      4
+  K                                  5
+  J, X                               8
+  Q, Z                               10
 
 When you place the word on the board, you receive a score for that word. The base score is the sum of the value for each letter. The first part of this Code Kata is to calculate the basic score for any word using any combination of these letters.
 
@@ -36,25 +36,25 @@ If a word falls on several special squares, apply the modifiers in the order abo
 
 For example if you took the word "Cabbage" the basic score is 14 (3+1+3+3+1+2+1). If you lay it on the following squares:
 
-C - blank
-A - 3xLS
-B - blank
-B - blank
-A - blank
-G - 2xWS
-E - blank
+  C - blank
+  A - 3xLS
+  B - blank
+  B - blank
+  A - blank
+  G - 2xWS
+  E - blank
 
 The score would be 32, calculated like this: (3+1*3+3+3+1+2+1)*2
 
 If you instead laid it on these squares:
 
-C - 2xLS
-A - blank
-B - blank
-B - blank
-A - 3xWS
-G - blank
-E - blank
+  C - 2xLS
+  A - blank
+  B - blank
+  B - blank
+  A - 3xWS
+  G - blank
+  E - blank
 
 The score would be 51, calculated like this: (3*2+1+3+3+1+2+1)*3
 
