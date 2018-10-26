@@ -3,14 +3,14 @@ Scrabble
 
 In the game of scrabble you create words from letter tiles. Common letters have a lower value than rarer letters. The value is shown on each letter tile is as follows:
 
-  Letter                           Value
-  A, E, I, O, U, L, N, R, S, T       1
-  D, G                               2
-  B, C, M, P                         3
-  F, H, V, W, Y                      4
-  K                                  5
-  J, X                               8
-  Q, Z                               10
+    Letter                           Value
+    A, E, I, O, U, L, N, R, S, T       1
+    D, G                               2
+    B, C, M, P                         3
+    F, H, V, W, Y                      4
+    K                                  5
+    J, X                               8
+    Q, Z                               10
 
 When you place the word on the board, you receive a score for that word. The base score is the sum of the value for each letter. The first part of this Code Kata is to calculate the basic score for any word using any combination of these letters.
 
