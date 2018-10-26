@@ -26,35 +26,35 @@ When you have mastered the basic score for a word, the second part is to adjust 
 
 Most squares are blank and have no effect on the score for a word. There are four kinds of special squares: 
 
-  - 2×LS - Double letter score: the score for this letter is doubled
-  - 3×LS - Triple letter score: the score for this letter is tripled
-  - 2×WS - Double word score: the score for this word is doubled
-  - 3×WS - Triple word score: the score for this word is tripled
-  - star - starred square: the score for this word is doubled
+    - 2×LS - Double letter score: the score for this letter is doubled
+    - 3×LS - Triple letter score: the score for this letter is tripled
+    - 2×WS - Double word score: the score for this word is doubled
+    - 3×WS - Triple word score: the score for this word is tripled
+    - star - starred square: the score for this word is doubled
 
 If a word falls on several special squares, apply the modifiers in the order above.
 
 For example if you took the word "Cabbage" the basic score is 14 (3+1+3+3+1+2+1). If you lay it on the following squares:
 
-  C - blank
-  A - 3xLS
-  B - blank
-  B - blank
-  A - blank
-  G - 2xWS
-  E - blank
+    C - blank
+    A - 3xLS
+    B - blank
+    B - blank
+    A - blank
+    G - 2xWS
+    E - blank
 
 The score would be 32, calculated like this: (3+1*3+3+3+1+2+1)*2
 
 If you instead laid it on these squares:
 
-  C - 2xLS
-  A - blank
-  B - blank
-  B - blank
-  A - 3xWS
-  G - blank
-  E - blank
+    C - 2xLS
+    A - blank
+    B - blank
+    B - blank
+    A - 3xWS
+    G - blank
+    E - blank
 
 The score would be 51, calculated like this: (3*2+1+3+3+1+2+1)*3
 
