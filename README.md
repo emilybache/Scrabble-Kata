@@ -63,9 +63,6 @@ If you instead laid it vertically with the first letter on (A, 4), it would have
 
 The score would be 51, calculated like this: ((3*2)+1+3+3+1+2+1)*3
 
-
-In this repository there is starting code in several languages, providing convenient access to data about the positions of special squares on the board. There is also a cross-platform version in json.
-
 See also [wikipedia](https://en.wikipedia.org/wiki/Scrabble) for further explanations and a picture of the board with the actual layout.
 
 
